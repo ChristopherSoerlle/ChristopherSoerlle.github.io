@@ -4,37 +4,142 @@
 }
 
 
-.p1 {
-  font-weight: bold;
-}
-
-.p2 {
-  color: black;
-  text-align: justify;
-  width: fit-content;
-}
-
-.p2::first-letter {
-  font-size: 500%;
-}
-
-header{
-  font-size: 40px;
-  height: 10vh;
-  width: 100%;
-  margin-left: 75px;
-}
-
-.MainPicture {
-  height: 80vh;
-  width: 1500px;
-  display: block;
+.div {
+  display: inline-block;
+  width: 100px;
+  height: 100px;
   
 
 }
 
-h1{
-  font-size: 70px;
-  margin-left: 350px;
-  margin-right: 350px;
+
+#p1 {
+  font-weight: bold;
+  font-size: 43px;
+  margin-left: 90px;
+  margin-top: 10px;
+  padding: none;
+  display: inline-block;
+  width: 65%;
+}
+
+.divLeft {
+  width: 29%;
+  font-size: 25px;
+  text-align: justify;
+  padding-right: 15px;
+  margin-left: 90px;
+}
+
+.divLeft::first-letter {
+  font-size: 600%;
+  line-height: 0.65;
+  margin: 0.1em 0.1em 0.2em 0;
+  float: left;
+}
+
+.divCenter {
+  width: 29%;
+  font-size: 25px;
+  text-align: justify;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.divRight {
+  width: 29%;
+  font-size: 25px;
+  text-align: justify;
+  padding-left: 15px;
+  align-content: flex-end;
+}
+
+.MainPicture {
+  height: 80vh;
+  width: 100%;
+  margin: auto;
+  display: block;
+}
+
+.MainPicture:hover {
+  opacity: 0.98;
+}
+
+.VurderingsBoks {
+  display: inline-block;
+  background-color: white;
+  border-width: 1px;
+  border-color:black;
+  border-style: solid;
+  transform: rotate(-5deg);
+  top: 25px;
+ 
+  
+}
+
+.EnkeltStjerne {
+  font-size: 20px;
+  color: red;
+  margin-left: 10px;
+}
+
+.Vurdering2 {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.SeksStjerner {
+  color: red;
+  font-size: 20px;
+}
+
+.Vurdering3 {
+  margin-left: 10px;
+  
+}
+
+.RødStjerne1, .RødStjerne2, .RødStjerne3 {
+  font-size: 40px;
+  color: red;
+}
+
+.GråStjerne1, .GråStjerne2, .GråStjerne3 {
+  font-size: 40px;
+  color: gray;
+}
+
+
+
+hr {
+  
+  margin-left: 12px;
+  margin-right: 12px;
+}
+
+.MainTitle{
+  font-size: 80px;
+  height: 10vh;
+  width: 100%;
+  margin-left: 90px;
+  font-weight: 400;
+  
+}
+
+h2 {
+  margin-left: 90px;
+  font-size: 110px;
+  margin-bottom: 10px;
+}
+
+
+.container {
+  display: flex;
+}
+
+#Sidetall{
+  margin-left: 90px;
+}
+
+.LitePunkt{
+  font-weight: 100;
 }
