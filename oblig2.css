@@ -65,14 +65,29 @@
   opacity: 0.98;
 }
 
+.bottom-centered{
+  position: absolute;
+  top: 80%;
+  left: 41%;
+  color: aliceblue;
+  font-size: smaller;
+  margin-bottom: 0px;
+}
+
+#landmark {
+  font-size: x-small;
+  margin-top: -10px;
+}
+
 .VurderingsBoks {
-  display: inline-block;
+  position: absolute;
   background-color: white;
   border-width: 1px;
   border-color:black;
   border-style: solid;
   transform: rotate(-5deg);
-  top: 25px;
+  top: 22%;
+  left: 32%;
  
   
 }
@@ -82,6 +97,11 @@
   color: red;
   margin-left: 10px;
 }
+
+.EnkeltStjerne:hover{
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+}
+
 
 .Vurdering2 {
   margin-left: 10px;
@@ -93,10 +113,20 @@
   font-size: 20px;
 }
 
-.Vurdering3 {
-  margin-left: 10px;
-  
+.SeksStjerner:hover{
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
 }
+
+
+.Vurdering3 {
+  margin-left: 10px;  
+}
+
+.Vurdering3:hover{
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.45);
+}
+
+
 
 .RødStjerne1, .RødStjerne2, .RødStjerne3 {
   font-size: 40px;
@@ -109,9 +139,7 @@
 }
 
 
-
 hr {
-  
   margin-left: 12px;
   margin-right: 12px;
 }
@@ -143,3 +171,65 @@ h2 {
 .LitePunkt{
   font-weight: 100;
 }
+
+.tekst {
+  font-size: 25px;
+  position: absolute;
+ margin-left: 90px;
+  text-align: justify;
+  display: inline-block;
+  width: 25%;
+}
+
+.sidebar1 {
+  position: absolute;
+  right: 350px ;
+  display: flex;
+  flex-direction: column;
+  align-items: right;
+  margin: 4px;
+  background-color: black;
+  color: white;
+  width: 300px;
+  border: 25px;
+  border-top-style: solid black 30px;
+  border-right-style:dotted;
+  border-left-style: dotted;
+  border-color:white ;
+  padding: 10px;
+  padding-top: 40px;
+  transform: rotate(-5deg);
+
+  
+}
+
+.sidebar1 img {
+  width: 300px;
+  border: solid white;
+  
+}
+
+.sidebar1 p {
+  margin-top: -10px;
+}
+.sidebar2 {
+  position: absolute;
+  right: 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: right;
+  padding-top: 30px;
+  background-color: rgb(255, 221, 0);
+  width: 300px;
+  border: solid black 2px;
+  
+}
+
+.sidebar2 img {
+  width: 300px;
+}
+
+.sidebar2 p {
+  margin-top: -10px;
+}
+
